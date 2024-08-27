@@ -12,6 +12,10 @@
       {
         "field": "Microsoft.Sql/servers/databases/transparentDataEncryption/state",
         "notEquals": "enabled"
+      },
+      {  
+        "field": "name",
+        "notEquals": "master"
       }
     ]
   },
